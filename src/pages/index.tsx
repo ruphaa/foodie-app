@@ -26,12 +26,12 @@ export default function Home() {
       <header>
         <Header/>
       </header>
-      <main>
+      <main className='mt-20 flex flex-col'>
         <Listing title="Daily offers" listings={restaurantData}/>
-        {/* <Listing title="Sweeten your meal" listings={restaurantData}/>
+        <Listing title="Sweeten your meal" listings={restaurantData}/>
         <Listing title="Today’s offers" listings={restaurantData}/>
         <Listing title="Healthy eating" listings={restaurantData}/>
-        <Listing title="Buy 1, get 1 free" listings={restaurantData}/> */}
+        <Listing title="Buy 1, get 1 free" listings={restaurantData}/>
       </main>
     </div>
   )

@@ -10,9 +10,9 @@ export type ListingProps = {
 
 export const Listing = ({title, listings}: ListingProps) => {
     return (
-        <div>
+        <div className="">
             <Title>{title}</Title>
-            <div>
+            <div className="flex mt-4 gap-x-4 overflow-x-scroll">
                 {
                     listings.map(listing => (
                       <RestaurantCard
